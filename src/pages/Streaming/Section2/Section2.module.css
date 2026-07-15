@@ -2,14 +2,16 @@
     width: 100%;
     min-height: 100vh;
     background: #222;
-    padding: 120px 0 80px;
+    padding: 120px 20px 80px;
+    box-sizing: border-box;
 }
+
+/* ================= Heading ================= */
 
 .mainHeading {
     display: flex;
     justify-content: center;
-    margin-bottom: 70px;
-    margin-top: 80px;
+    margin: 80px 0 70px;
 }
 
 .mainHeading h1 {
@@ -17,144 +19,139 @@
     font-size: 52px;
     font-family: "Obvia Condensed Medium", sans-serif;
     letter-spacing: 3px;
+    text-align: center;
 }
 
+/* ================= Cards ================= */
 
 .cardSection {
     width: 100%;
-    max-width: 1280px;
-
-    margin: 0 auto;
+    max-width: 1300px;
+    margin: auto;
 
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-
-    gap: 60px 40px;
+    justify-content: center;
+    gap: 35px;
 }
 
-
 .card {
-    flex: 0 0 500px;
-
-    height: 330px;
-
-    overflow: hidden;
+    width: 500px;
+    display: flex;
+    justify-content: center;
 }
 
 .Img {
-    width: 90%;
+    width: 100%;
     height: 270px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .Img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: 1s;
+    transition: .6s;
 }
 
 .card:hover img {
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 
+/* ================= LET'S CONNECT ================= */
 
-.card h2 {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    margin: 25px 0;
-
-    font-family: "Obvia Condensed Medium", sans-serif;
-}
-
-.card button {
-    display: block;
-
-    margin: auto;
-
-    padding: 14px 40px;
-
-    background: rgb(79, 78, 78);
-    border:none;
-
-    color: white;
-
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 2px;
-
-    transition: .3s;
-}
-
-.card button:hover {
-    cursor: pointer;
-}
-
-.card button:active {
-    transform: scale(.95);
-}
-.Connect{
+.Connect {
     width: 100%;
-    height: 55vh;
-
     display: flex;
     justify-content: center;
+    padding: 90px 20px;
+    box-sizing: border-box;
 }
 
-.connectMain{
+.connectMain {
     width: 80%;
-    height: 70%;
-    margin-top: 50px;
+    max-width: 1200px;
+    background: #000;
 }
 
-.connectContent{
+.connectContent {
     width: 100%;
-    height: 100%;
-    background-color:#0e3445;
+    min-height: 320px;
+
+    background: #0e3445;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    text-align: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
 }
 
-.connectContent h1{
+.connectContent h1 {
     font-size: 4rem;
+    font-family: "Obvia Condensed Medium", sans-serif;
+    line-height: 1.2;
+    margin-bottom: 30px;
 }
 
-.connectContent button{
+.connectContent button {
     padding: 15px 45px;
-    margin-top: 30px;
-    font-size: large;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
     border: none;
-    background-color: #3a0706;
+    background: #3a0706;
+    cursor: pointer;
+    transition: .3s;
 }
 
+.connectContent button:hover {
+    background: #5b0d0d;
+}
 
-@media (max-width:1280px) {
+/* ================= Laptop ================= */
+
+@media (max-width:1200px) {
+
+    .mainHeading h1 {
+        font-size: 46px;
+    }
 
     .cardSection {
         max-width: 1000px;
     }
 
     .card {
-        flex-basis: 470px;
-        height: 450px;
+        width: 450px;
     }
 
     .Img {
-        height: 280px;
+        height: 250px;
     }
 
+    .connectMain {
+        width: 90%;
+    }
+
+    .connectContent h1 {
+        font-size: 3.2rem;
+    }
 }
+
+/* ================= Tablet ================= */
 
 @media (max-width:991px) {
 
+    .feature {
+        padding: 100px 20px 70px;
+    }
+
     .mainHeading h1 {
-        font-size: 42px;
+        font-size: 40px;
     }
 
     .cardSection {
@@ -162,44 +159,100 @@
     }
 
     .card {
-        flex-basis: 100%;
+        width: 100%;
         max-width: 600px;
-        height: 460px;
     }
 
     .Img {
         height: 300px;
     }
 
+    .connectMain {
+        width: 95%;
+    }
+
+    .connectContent {
+        min-height: 280px;
+    }
+
+    .connectContent h1 {
+        font-size: 2.8rem;
+    }
 }
 
+/* ================= Mobile ================= */
 
 @media (max-width:768px) {
 
     .feature {
-        padding-top: 100px;
+        padding: 90px 15px 60px;
+    }
+
+    .mainHeading {
+        margin: 50px 0;
     }
 
     .mainHeading h1 {
-        font-size: 36px;
+        font-size: 34px;
     }
 
     .card {
-        width: 92%;
-        height: auto;
+        width: 100%;
     }
 
     .Img {
-        height: 240px;
+        height: 220px;
     }
 
-    .card h2 {
-        font-size: 24px;
+    .Connect {
+        padding: 60px 15px;
     }
 
-    .card button {
-        width: 85%;
-        margin-bottom: 20px;
+    .connectMain {
+        width: 100%;
     }
 
+    .connectContent {
+        min-height: 240px;
+        padding: 40px 20px;
+    }
+
+    .connectContent h1 {
+        font-size: 2rem;
+    }
+
+    .connectContent button {
+        width: 100%;
+        max-width: 260px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+}
+
+/* ================= Small Mobile ================= */
+
+@media (max-width:480px) {
+
+    .mainHeading h1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .Img {
+        height: 180px;
+    }
+
+    .connectContent {
+        min-height: 220px;
+        padding: 35px 15px;
+    }
+
+    .connectContent h1 {
+        font-size: 1.6rem;
+    }
+
+    .connectContent button {
+        max-width: 220px;
+        font-size: 15px;
+    }
 }

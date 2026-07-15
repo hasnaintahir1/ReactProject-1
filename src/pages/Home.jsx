@@ -2,7 +2,7 @@ import Hero from "../components/Section1/HeroSection/Hero-imgs-vides";
 import Heading from "../components/Section2/Section2-Hading/Section2-Heading";
 import Carousel from "../components/Section2/Section2-Carousal/Carousel";
 import Carousel2 from "../components/Section3/Section3-Carosul/Section3-Carousel";
-import Section3 from "../components/Section4/Section4-Heading/Section4-Heading";
+import Section3 from "../components/Section4/Section4";
 import Section4 from "../components/Section5/Section5-Img/Section5-img";
 import Carousel3 from "../components/Section6/Section6-Carousel/Section6";
 import Section5 from "../components/Section7/Section7Img/Section7Img";

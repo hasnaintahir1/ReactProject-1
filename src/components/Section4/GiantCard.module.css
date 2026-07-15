@@ -1,0 +1,63 @@
+.card{
+    width:100%;
+    text-align:right;
+}
+
+.logo{
+    margin-bottom:35px;
+}
+
+.logo img{
+    width:260px;
+    max-width:100%;
+}
+
+.card p{
+    color:#fff;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.card button{
+    padding:15px 35px;
+    border:2px solid #fff;
+    background:transparent;
+    color:#fff;
+    cursor:pointer;
+    letter-spacing:2px;
+}
+
+.card button:hover{
+    background:#fff;
+    color:#000;
+}
+
+@media(max-width:991px){
+
+.card{
+    text-align:center;
+}
+
+.logo{
+    display:flex;
+    justify-content:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.logo img{
+    width:180px;
+}
+
+.card p{
+    font-size:16px;
+}
+
+.card button{
+    width:220px;
+}
+
+}
