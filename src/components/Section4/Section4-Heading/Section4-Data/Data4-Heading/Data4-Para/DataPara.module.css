@@ -1,0 +1,30 @@
+.dataPara{
+    position: absolute;
+
+    width: 40%;
+    height: 30%;
+
+    margin-top: 21%;
+    margin-left: 9%;
+}
+
+.dataPara span{
+    font-size: larger;
+    font-weight: lighter;
+}
+@media(max-width:768px){
+
+.dataPara{
+    position:absolute;
+    width:80%;
+    margin-left:10%;
+    margin-top:240px;
+    height:auto;
+}
+
+.dataPara span{
+    font-size:16px;
+    line-height:1.7;
+}
+
+}

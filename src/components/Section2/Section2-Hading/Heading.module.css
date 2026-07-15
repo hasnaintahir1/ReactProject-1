@@ -1,0 +1,38 @@
+.section2Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background: #0d0d18;
+}
+
+.section2Heading h1 {
+    font-family: "Obvia Condensed Medium", Sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+@media (max-width:768px){
+
+    .section2Heading{
+        padding-top:70px;
+    }
+
+    .section2Heading h1{
+        font-size:36px;
+        text-align:center;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .section2Heading h1{
+        font-size:28px;
+        letter-spacing:2px;
+    }
+
+}

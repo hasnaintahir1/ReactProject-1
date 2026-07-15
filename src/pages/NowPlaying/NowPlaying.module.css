@@ -1,0 +1,205 @@
+.feature {
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+    padding: 120px 0 80px;
+}
+
+.mainHeading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 80px;
+}
+
+.mainHeading h1 {
+    color: skyblue;
+    font-size: 52px;
+    font-family: "Obvia Condensed Medium", sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.cardSection {
+    width: 100%;
+    max-width: 1280px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 60px 40px;
+}
+
+
+.card {
+    flex: 0 0 600px;
+
+    height: 500px;
+
+    overflow: hidden;
+}
+
+.Img {
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+
+.Img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+}
+
+
+.card h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 25px 0;
+
+    font-family: "Obvia Condensed Medium", sans-serif;
+}
+
+.card button {
+    display: block;
+
+    margin: auto;
+
+    padding: 14px 40px;
+
+    background: rgb(79, 78, 78);
+    border:none;
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    transition: .3s;
+}
+
+.card button:hover {
+    cursor: pointer;
+}
+
+.card button:active {
+    transform: scale(.95);
+}
+.Connect{
+    width: 100%;
+    height: 55vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.connectMain{
+    width: 80%;
+    height: 70%;
+    margin-top: 50px;
+}
+
+.connectContent{
+    width: 100%;
+    height: 100%;
+    background-color:#0e3445;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.connectContent h1{
+    font-size: 4rem;
+}
+
+.connectContent button{
+    padding: 15px 45px;
+    margin-top: 30px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    background-color: #3a0706;
+}
+
+
+@media (max-width:1280px) {
+
+    .cardSection {
+        max-width: 1000px;
+    }
+
+    .card {
+        flex-basis: 470px;
+        height: 450px;
+    }
+
+    .Img {
+        height: 280px;
+    }
+
+}
+
+@media (max-width:991px) {
+
+    .mainHeading h1 {
+        font-size: 42px;
+    }
+
+    .cardSection {
+        max-width: 700px;
+    }
+
+    .card {
+        flex-basis: 100%;
+        max-width: 600px;
+        height: 460px;
+    }
+
+    .Img {
+        height: 300px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    .feature {
+        padding-top: 100px;
+    }
+
+    .mainHeading h1 {
+        font-size: 36px;
+    }
+
+    .card {
+        width: 92%;
+        height: auto;
+    }
+
+    .Img {
+        height: 240px;
+    }
+
+    .card h2 {
+        font-size: 24px;
+    }
+
+    .card button {
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+}

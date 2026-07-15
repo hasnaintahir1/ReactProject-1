@@ -1,0 +1,147 @@
+.feature{
+    width:100%;
+    min-height:80vh;
+    background-color:#333;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:80px 20px;
+    box-sizing:border-box;
+}
+
+.main{
+    width:80%;
+    max-width:1200px;
+    background:black;
+}
+
+.content{
+    width:100%;
+    min-height:320px;
+
+    background:#0e3445;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    text-align:center;
+    padding:50px 20px;
+    box-sizing:border-box;
+}
+
+.content h1{
+    font-size:4rem;
+    font-family:"Obvia Condensed Medium",sans-serif;
+    line-height:1.2;
+    margin-bottom:30px;
+}
+
+.content button{
+    padding:15px 45px;
+    font-size:18px;
+    font-weight:bold;
+    letter-spacing:2px;
+    border:none;
+    background:#3a0706;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.content button:hover{
+    background:#5b0d0d;
+}
+
+
+/* ================= Laptop ================= */
+
+@media (max-width:1200px){
+
+    .main{
+        width:90%;
+    }
+
+    .content h1{
+        font-size:3.3rem;
+    }
+
+}
+
+
+/* ================= Tablet ================= */
+
+@media (max-width:991px){
+
+    .feature{
+        min-height:auto;
+        padding:70px 20px;
+    }
+
+    .main{
+        width:95%;
+    }
+
+    .content{
+        min-height:280px;
+    }
+
+    .content h1{
+        font-size:2.8rem;
+    }
+
+}
+
+
+/* ================= Mobile ================= */
+
+@media (max-width:768px){
+
+    .feature{
+        padding:50px 15px;
+    }
+
+    .main{
+        width:100%;
+    }
+
+    .content{
+        min-height:240px;
+        padding:40px 20px;
+    }
+
+    .content h1{
+        font-size:2rem;
+    }
+
+    .content button{
+        width:100%;
+        max-width:260px;
+        padding:15px 0;
+        font-size:16px;
+    }
+
+}
+
+
+/* ================= Small Mobile ================= */
+
+@media (max-width:480px){
+
+    .content{
+        min-height:220px;
+        padding:35px 15px;
+    }
+
+    .content h1{
+        font-size:1.6rem;
+    }
+
+    .content button{
+        max-width:220px;
+        font-size:15px;
+    }
+
+}

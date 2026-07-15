@@ -1,0 +1,213 @@
+.main {
+    width: 100%;
+    min-height: 75vh;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.537);
+}
+
+.content {
+
+    position: relative;
+    z-index: 2;
+
+    width: 85%;
+    max-width: 1300px;
+
+    margin: auto;
+
+    min-height: 75vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 80px;
+}
+
+/* LEFT */
+
+.left {
+
+    flex: 1;
+
+}
+
+.left h1 {
+
+    color: white;
+
+    font-size: 58px;
+
+    font-family: "Obvia Condensed Medium";
+
+    margin-bottom: 30px;
+
+    line-height: 1.1;
+
+}
+
+.left p {
+
+    color: #ddd;
+
+    font-size: 19px;
+
+    line-height: 32px;
+
+    margin-bottom: 35px;
+
+}
+
+.left button {
+
+    padding: 16px 42px;
+
+    background: transparent;
+
+    color: white;
+
+    border: 1px solid;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+}
+
+/* RIGHT */
+
+.right {
+
+    flex: 1;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+.counter,
+.counter3,
+.counter4 {
+    text-align: center;
+}
+
+.counter h2,
+.counter3 h2,
+.counter4 h2 {
+    font-size: 60px;
+    font-family: "Obvia Condensed Medium", sans-serif;
+}
+
+.counter p,
+.counter3 p,
+.counter4 p {
+    color: white;
+    margin-top: 12px;
+}
+
+/* Tablet */
+
+@media(max-width:991px) {
+
+    .content {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 80px 0;
+
+    }
+
+    .left h1 {
+
+        font-size: 44px;
+
+    }
+
+    .right {
+
+        width: 100%;
+
+    }
+
+    .counter h2,
+    .counter3 h2 {
+
+        font-size: 56px;
+
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px) {
+
+    .right {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .counter3 {
+
+        grid-column: auto;
+
+    }
+
+    .left h1 {
+
+        font-size: 34px;
+
+    }
+
+    .left p {
+
+        font-size: 16px;
+
+        line-height: 28px;
+
+    }
+
+    .counter h2,
+    .counter3 h2 {
+
+        font-size: 48px;
+
+    }
+
+    .left button {
+
+        width: 100%;
+
+        max-width: 280px;
+
+    }
+
+}

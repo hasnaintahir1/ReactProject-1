@@ -1,0 +1,41 @@
+.feature{
+    width:100%;
+    min-height:100vh;
+    background:#222;
+    padding:120px 20px 80px;
+    box-sizing:border-box;
+}
+
+.main{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.heroImg{
+    width:100%;
+    max-width:1200px;
+    overflow: hidden;
+}
+
+.heroImg img{
+    width:100%;
+    height:auto;
+    display:block;
+    transition: 1.6s;
+}
+.heroImg img:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width:768px){
+
+.feature{
+    padding-top:90px;
+}
+
+.heroImg{
+    width:100%;
+}
+
+}

@@ -1,0 +1,34 @@
+.section6Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.section6Heading h1 {
+    font-family: "Obvia Condensed Medium", Sans-serif;
+    color: skyblue;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+@media (max-width:768px){
+
+    .section6Heading{
+        margin-bottom:40px;
+    }
+
+    .section6Heading h1{
+        font-size:36px;
+        letter-spacing:2px;
+        text-align:center;
+    }
+}
+
+@media (max-width:480px){
+
+    .section6Heading h1{
+        font-size:28px;
+    }
+}

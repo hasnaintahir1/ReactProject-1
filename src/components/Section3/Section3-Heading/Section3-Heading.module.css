@@ -1,0 +1,41 @@
+.section3Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.section3Heading h1 {
+    font-family: "Obvia Condensed Medium", Sans-serif;
+    color: skyblue;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+/* ================= Tablet ================= */
+
+@media (max-width:768px){
+
+    .section3Heading{
+        margin-bottom:40px;
+    }
+
+    .section3Heading h1{
+        font-size:36px;
+        letter-spacing:2px;
+        text-align:center;
+    }
+
+}
+
+/* ================= Mobile ================= */
+
+@media (max-width:480px){
+
+    .section3Heading h1{
+        font-size:28px;
+        letter-spacing:1px;
+    }
+
+}

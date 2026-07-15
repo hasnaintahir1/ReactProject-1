@@ -1,0 +1,45 @@
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+.heading {
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    font-family: "Obvia Condensed Medium", Sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: skyblue;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 20px;
+}
+
+@media (max-width: 991px) {
+    .heading {
+        height: 16vh;
+    }
+
+    .heading h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        height: 14vh;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+}

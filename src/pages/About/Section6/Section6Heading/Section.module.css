@@ -1,0 +1,11 @@
+.heading{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 3rem;
+    font-family: "Obvia Condensed Medium", Sans-serif;
+    color: skyblue;
+}

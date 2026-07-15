@@ -1,0 +1,90 @@
+.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+    z-index:2;
+    width:90%;
+}
+
+.content h1{
+    font-family:"Obvia Condensed Medium", Sans-serif;
+    font-weight:900;
+    font-size:60px;
+}
+
+.content h3{
+    margin:20px 0;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.content p{
+    margin:20px 0;
+    letter-spacing:2px;
+}
+
+/* ================= Tablet ================= */
+
+@media(max-width:991px){
+
+    .content h1{
+        font-size:48px;
+    }
+
+    .content h3{
+        font-size:24px;
+    }
+
+    .content p{
+        font-size:18px;
+    }
+
+}
+
+/* ================= Mobile ================= */
+
+@media(max-width:768px){
+
+    .content h1{
+        font-size:36px;
+        line-height:1.2;
+    }
+
+    .content h3{
+        font-size:20px;
+        margin:15px 0;
+    }
+
+    .content p{
+        font-size:16px;
+        margin:15px 0;
+    }
+
+}
+
+/* ================= Small Mobile ================= */
+
+@media(max-width:480px){
+
+    .content{
+        width:95%;
+    }
+
+    .content h1{
+        font-size:28px;
+    }
+
+    .content h3{
+        font-size:18px;
+        letter-spacing:1px;
+    }
+
+    .content p{
+        font-size:14px;
+        letter-spacing:1px;
+    }
+
+}

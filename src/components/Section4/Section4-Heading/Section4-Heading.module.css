@@ -1,0 +1,58 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg,
+            #403d00 0%,
+            #674200 35%,
+            #b90000 70%,
+            #570813 100%)
+}
+
+.Section4Heading {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    color: skyblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+/* ================= Tablet ================= */
+
+@media (max-width: 991px){
+
+    .main{
+        height: auto;
+        min-height: 1800px;
+        position: relative;
+    }
+
+    .Section4Heading{
+        position: relative;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .Section4Heading h1{
+        font-size: 38px;
+        text-align: center;
+    }
+
+}
+
+/* ================= Mobile ================= */
+
+@media (max-width:768px){
+
+    .main{
+        min-height: 2100px;
+    }
+
+    .Section4Heading h1{
+        font-size:30px;
+    }
+
+}
