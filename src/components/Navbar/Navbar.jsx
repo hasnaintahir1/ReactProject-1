@@ -49,7 +49,6 @@ const Navbar = () => {
         <span onClick={goToTechnology}>Technology</span>
         <Link to="/about">About Us</Link>
         <Link to="/advertise">Advertise with us</Link>
-        <Link to="/investors">Investors</Link>
       </div>
 
       <div

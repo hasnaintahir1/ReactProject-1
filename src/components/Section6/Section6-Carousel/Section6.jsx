@@ -21,12 +21,12 @@ const slides = [
   {
     id: 3,
     image:
-      "https://industryhit.com/t/wp-content/uploads/2024/11/thumbnail-trailer-1-1.jpg",
+      "https://cdn.slidesharecdn.com/ss_thumbnails/attackontitan-260416192334-8c286252-thumbnail.jpg?width=640&height=640&fit=bounds",
   },
   {
     id: 4,
     image:
-      "https://images.ottplay.com/thumbnails/2024q3/Karthi_in_Kanguva_tr_OTTplay_news_body_image_3_297.jpeg",
+      "https://gmedia.playstation.com/is/image/SIEPDC/until-dawn-keyart-01-en-22jan24?$facebook$",
   },
   {
     id: 5,

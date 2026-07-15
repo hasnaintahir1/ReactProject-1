@@ -10,7 +10,7 @@ const slides = [
   {
     id: 1,
     image:
-      "https://tse1.mm.bing.net/th/id/OIP.Wyyu-0ToTpOTuT2nHzDJXQHaC9?pid=Api&h=220&P=0",
+      "https://mrwallpaper.com/images/hd/don-t-miss-the-return-of-demon-slayer-in-season-2-b8cgeitp4istvxm4.jpg",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const slides = [
   {
     id: 5,
     image:
-      "https://tse4.mm.bing.net/th/id/OIP.zw6O-BPT0sjlRvVZHimyHAHaDP?pid=Api&h=220&P=0",
+      "https://dailydead.com/wp-content/uploads/2026/01/Silent-Hill-2.jpg",
   },
 ];
 
