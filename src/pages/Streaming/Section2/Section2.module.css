@@ -72,7 +72,6 @@
 .connectMain {
     width: 80%;
     max-width: 1200px;
-    background: #000;
 }
 
 .connectContent {
@@ -92,6 +91,7 @@
 }
 
 .connectContent h1 {
+    color: #fff;
     font-size: 4rem;
     font-family: "Obvia Condensed Medium", sans-serif;
     line-height: 1.2;
@@ -107,6 +107,7 @@
     background: #3a0706;
     cursor: pointer;
     transition: .3s;
+    color: #fff;
 }
 
 .connectContent button:hover {
