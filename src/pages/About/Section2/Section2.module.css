@@ -28,11 +28,13 @@
 
 .rightContent h4{
     font-family: "Obvia Condensed Medium", sans-serif;
+    color: #fff;
     margin-bottom:15px;
     font-size:22px;
 }
 
 .rightContent span{
+    color: #fff;
     line-height:30px;
     font-size:17px;
 }

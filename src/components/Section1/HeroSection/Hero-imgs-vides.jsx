@@ -14,7 +14,7 @@ const slides = [
     {
         id: 1,
         type: "video",
-        media: video1,
+        media: video2,
         title: "Return To Silent Hill",
         subtitle: "You live here now",
         button: "LEARN MORE ->",
@@ -30,7 +30,7 @@ const slides = [
     {
         id: 3,
         type: "video",
-        media: video2,
+        media: video1,
         title: "Air Buds Return ",
         subtitle: "Anything is possible",
         date: "Coming Soon",

@@ -50,6 +50,7 @@
 }
 
 .content span{
+    color: #fff;
     font-family:"Obvia Condensed Medium",sans-serif;
     font-size: x-large;
     text-transform: lowercase;
@@ -61,6 +62,7 @@
     padding: 15px 0px 15px 0px;
     background-color: transparent;
     border: 1px solid red;
+    color: #fff;
     letter-spacing: 4px;
     font-weight: bolder;
     margin-left: 10px;

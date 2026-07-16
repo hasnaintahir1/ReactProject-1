@@ -119,6 +119,7 @@
 .counter h2,
 .counter3 h2,
 .counter4 h2 {
+    color: rgb(255, 255, 255);
     font-size: 60px;
     font-family: "Obvia Condensed Medium", sans-serif;
 }

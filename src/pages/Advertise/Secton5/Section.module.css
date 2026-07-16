@@ -53,6 +53,7 @@
     font-family:"Obvia Condensed Medium",sans-serif;
     font-size: x-large;
     text-transform: lowercase;
+    color: #fff;
 }
 
 .content button{
@@ -60,6 +61,7 @@
     margin-top: 15px;
     padding: 15px 0px 15px 0px;
     background-color: transparent;
+    color: #fff;
     border: 1px solid red;
     letter-spacing: 4px;
     font-weight: bolder;

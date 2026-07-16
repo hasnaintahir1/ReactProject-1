@@ -94,7 +94,7 @@
     .feature{
         min-height:auto;
         flex-direction:column-reverse;
-        padding:70px 25px;
+        padding:80px 25px;
         gap:40px;
         text-align:center;
     }
@@ -136,7 +136,7 @@
 @media (max-width:768px){
 
     .feature{
-        padding:60px 20px;
+        padding:80px 20px;
     }
 
     .content h1{
@@ -161,7 +161,7 @@
 @media (max-width:480px){
 
     .feature{
-        padding:50px 15px;
+        padding:70px 15px;
         gap:30px;
     }
 
