@@ -6,15 +6,15 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import img from '../../../assets/img1.png'
-import video1 from '../../../assets/video1.mp4'
-import video2 from '../../../assets/video2.mp4'
+import img1 from '../../../assets/img1.jpg'
+import img2 from '../../../assets/img2.jpg'
+import img3 from '../../../assets/img3.jpg'
 
 const slides = [
     {
         id: 1,
-        type: "video",
-        media: video2,
+        type: "img",
+        media: img3,
         title: "Return To Silent Hill",
         subtitle: "You live here now",
         button: "LEARN MORE ->",
@@ -22,18 +22,17 @@ const slides = [
     {
         id: 2,
         type: "img",
-        media: img,
-        title: "PAN'S LABYRINTH",
-        subtitle: "20th Aniversy in 3D",
+        media: img1,
+        title: "Avatar",
+        subtitle: "Live here now!!",
         button: "LEARN MORE ->",
     },
     {
         id: 3,
-        type: "video",
-        media: video1,
-        title: "Air Buds Return ",
-        subtitle: "Anything is possible",
-        date: "Coming Soon",
+        type: "img",
+        media: img2,
+        title: "Brave",
+        subtitle: "Comming Soon",
         button: "LEARN MORE",
     },
 ];
@@ -49,24 +48,11 @@ const Hero = () => {
             {slides.map((item) => (
                 <SwiperSlide key={item.id}>
                     <div className={styles.slide}>
-
-                        {item.type === "video" ? (
-                            <video
-                                className={styles.media}
-                                src={item.media}
-                                autoPlay
-                                muted
-                                loop
-                                playsInline
-                            />
-                        ) : (
-                            <img
-                                className={styles.media}
-                                src={item.media}
-                                alt={item.title}
-                            />
-                        )}
-
+                        <img
+                            className={styles.media}
+                            src={item.media}
+                            alt={item.title}
+                        />
                         <div className={styles.overlay}></div>
 
                         <div className={styles.content}>

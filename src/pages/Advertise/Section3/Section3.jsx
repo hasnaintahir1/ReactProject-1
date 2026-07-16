@@ -3,7 +3,7 @@ import styles from "./Section.module.css";
 import { useInView } from "react-intersection-observer";
 import Counter from "../Section3/Counter";
 
-import bgVideo from "../../../assets/Advertise.mp4";
+import img from "../../../assets/AdverticeImg.jpg";
 
 const Section3 = () => {
 
@@ -16,15 +16,7 @@ const Section3 = () => {
 
     <section className={styles.main} ref={ref}>
 
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className={styles.video}
-      >
-        <source src={bgVideo} type="video/mp4"/>
-      </video>
+     <img className={styles.Img} src={img} alt="" />
 
       <div className={styles.overlay}></div>
 
