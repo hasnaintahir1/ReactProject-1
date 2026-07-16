@@ -36,8 +36,8 @@ const Home = () => {
       <Carousel />
       <Carousel2 />
       <Section3 />
-      <Section4 />
       <Carousel3 />
+      <Section4 />
       <Section5 />
       <Section6 />
       <Section7 />
